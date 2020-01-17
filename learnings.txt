@@ -1,0 +1,28 @@
+runtime evironment to run js
+mozilla - spidermonkey 
+chrome   - v8 
+
+node creator moved v8 from browser to a c++ program called node.exe
+
+
+node workes on async model
+
+
+every node *js file is module 
+
+
+
+A module can export class object , function , property using module.export. 
+whoever want to use that need to load module by calling require()
+
+
+each module code is always inside a function which node inserts internally 
+
+function(require , exports , _filename , _dirname)
+{
+
+}
+
+
+
+EventEmitter a classs using which we can raise event , it also tells what to do if particulat type of event has happened 
